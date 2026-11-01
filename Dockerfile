@@ -18,3 +18,5 @@ COPY requirements.txt /requirements.txt
 RUN pip install --no-cache-dir \
     "pyspark==4.2.1" \
     -r /requirements.txt
+
+ENV PYSPARK_SUBMIT_ARGS="--packages org.apache.hadoop:hadoop-aws:3.5.0 pyspark-shell"
