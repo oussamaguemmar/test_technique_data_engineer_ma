@@ -1,5 +1,4 @@
-# Artefact — Test technique Data Engineer
-## Chicago Taxi Trips | Pipeline de données Medallion
+# Chicago Taxi Trips | Pipeline de données Medallion
 
 Ce dépôt contient ma solution au test technique Data Engineer proposé
 par Artefact.
